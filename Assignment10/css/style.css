@@ -1,0 +1,41 @@
+body {
+    font-family: "Monaco", 'Courier New', Courier, monospace;
+    color: darkslategray;
+}
+
+.main-container {
+    border-style: solid;
+    border-width: 10px;
+    border-color: darkseagreen;
+    padding: 10px;
+    background: #ff9966;
+    margin: auto;
+}
+
+
+div.align {
+    text-align: center;
+}
+
+.second-container {
+    margin: auto;
+    width:50%;
+    padding: 50px;
+    border-style: solid;
+    border-width: 1px  ;
+    border-color: #666699;
+    background: slategray;
+    border-spacing: inherit;
+    align-items: center;
+}
+
+
+
+#mainheader {
+    position: relative;
+    left: 20px;
+    top: 5px;
+    color: darkslategray;
+    opacity: .75;
+    font-size: 60px;
+}
