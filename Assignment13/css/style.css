@@ -1,0 +1,102 @@
+body {
+    margin: 0.25em;
+    font-size: 15pt;
+ }
+ header {
+  
+    background-color: darkseagreen;
+  
+    font-size: 12pt;
+    text-align: center;
+    text-transform: uppercase;
+    margin: .5em;
+   
+}
+
+.menu-item {
+    margin: auto;
+    padding: 0.25em;
+    min-width: 100px;
+    font-size: 10pt;
+    color: #070707;
+    background-color: gainsboro;
+    line-height: 2.1em;
+}
+
+.menu-item:hover {
+    background-color:#4d804d;
+    color: #333;
+}
+
+.display-inline {
+    display: inline;
+}
+
+.parent-container {
+    background-color: gainsboro;
+    max-width: 100%;
+    padding: 2em;
+    height: 100%;
+    margin: 1;
+    border-width: 10px;
+    border-style: solid;
+    border-color: darkseagreen;
+ }
+
+ .child-container{
+    background-color: gainsboro;
+    max-width: 400%;
+    padding: 2em;
+    height: 100px;
+    margin: 10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: darkseagreen;
+ }
+
+ .overflow-scroll {
+    overflow: scroll;
+ }
+
+ .dropdown {
+    display: inline;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 84;
+    left: 800;
+    border: 1px solid darkseagreen;
+    margin: 0.5em 0 0 -1em;
+    color: #000;
+    background-color: gainsboro;
+    z-index: 1;
+}
+.dropdown-content a {
+    color: #000;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Style dropdown item display: */
+.dropdown-item {
+    display: block;
+    text-align: left;
+    margin: 0;
+    padding: 0.5em 1em 0.5em 1em;
+    min-width: 5.9em;
+}
+
+.dropdown-item:hover, .dropdown-item:hover a {
+    color: gainsboro;
+    background-color:#4d804d;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
